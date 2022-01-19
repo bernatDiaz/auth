@@ -58,3 +58,6 @@ def user_view():
 @admin_required
 def admin_view():
     return render_template('admin.html')
+
+if __name__ == '__main__':
+      app.run(host='0.0.0.0')
